@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #con {
+            display: grid;
+            grid-auto-flow: column;
+            width: 100%;
+            height: 500px;
+            grid-gap: 20px 10px;
+            background-color: brown;
+            margin: 10px;
+            padding: 20px;
+            grid-template-areas: 
+            'a a d d e g'
+            'b c d d e g'
+            'h i i j k l';
+        }
+
+        .f {
+            text-align: center;
+            font-size: 100px;
+            background-color: white;
+            color: brown;
+        }
+
+        #a {
+            grid-area: a;
+
+        }
+
+        #b {
+            grid-area: b;
+        }
+
+        #c {
+            grid-area: c;
+        }
+
+        #d {
+            grid-area: d;
+        }
+
+        #e {
+            grid-area: e;
+        }
+
+        #g {
+            grid-area: g;
+        }
+
+        #h {
+            grid-area: h;
+        }
+
+        #i {
+            grid-area: i;
+        }
+
+        #j {
+            grid-area: j;
+        }
+
+        #k {
+            grid-area: k;
+        }
+
+        #l {
+            grid-area: l;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="con">
+        <div class="f" id="a">1</div>
+        <div class="f" id="b">2</div>
+        <div class="f" id="c">3</div>
+        <div class="f" id="d">4</div>
+        <div class="f" id="e">5</div>
+        <div class="f" id="g">6</div>
+        <div class="f" id="h">7</div>
+        <div class="f" id="i">8</div>
+        <div class="f" id="j">9</div>
+        <div class="f" id="k">10</div>
+        <div class="f" id="l">11</div>
+    </div>
+</body>
+
+</html>
